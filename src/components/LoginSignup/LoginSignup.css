@@ -1,0 +1,151 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#b78600,#14006c);
+    color: #fff;
+    border: #eaeaea 1px solid;
+    box-sizing: border-box;
+    padding: 20px;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text{
+    font-size: 50px;
+    font-weight: 700;
+    color: #939d00;
+}
+
+.underline{
+    width: 172px;
+    height: 5px;
+    background: #939d00;
+    border-radius: 10px;
+}
+
+.inputss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 500px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 490px;
+    height: 60px;
+    background: #eaeaea;
+    border-radius: 8px;
+}
+
+.input img{
+    margin: 0px 30px;
+    width: 33px;
+    height: 33px;
+    object-fit: contain;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 2px solid #939d00;
+    transition: 0.3s;
+}
+.input img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.input img:active{
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+.input input{
+    width: 400px;
+    height: 50p;
+    background: #eaeaea;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.forgot-password{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #939d00;
+    text-align: center;
+}
+
+
+.forgot-password span{
+    color: #000000;
+    cursor: pointer;
+}
+
+
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submit{
+    width: 200px;
+    height: 60px;
+    background: #939d00;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background: #03f538;
+    transition: 0.3s;
+}
+
+.submit:active{
+    background: #939d00;
+    transition: 0.3s;
+}
+
+
+.gray{
+    background: #eaeaea;
+    color: #6e6e6e;
+}
